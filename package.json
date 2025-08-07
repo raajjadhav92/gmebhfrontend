@@ -17,6 +17,10 @@
     "react-table": "^7.8.0",
     "react-toastify": "^9.1.2"
   },
+  "dependencies": {
+  "react-scripts": "^5.0.1", // ✅ this must be here!
+  ...
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
